@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<include file="$(find charuco_detector)/launch/charuco_detector_fix.launch"/>
+	<include file="$(find charuco_detector)/launch/charuco_detector_estimate.launch"/>
+</launch>
